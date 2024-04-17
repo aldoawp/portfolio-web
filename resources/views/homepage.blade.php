@@ -15,7 +15,7 @@
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.60001 10.3936C1.60128 7.63633 2.6976 4.99244 4.64789 3.04336C6.59818 1.09427 9.24273 -0.000424431 12 1.23445e-07C17.7424 1.23445e-07 22.4 4.6544 22.4 10.3936C22.4 14.672 20.2592 18.0624 17.9648 20.3536C16.9506 21.3722 15.8139 22.2612 14.5808 23C14.0656 23.304 13.584 23.544 13.1648 23.7072C12.7696 23.864 12.3552 23.9856 12 23.9856C11.6448 23.9856 11.2304 23.864 10.8352 23.7072C10.3458 23.508 9.87242 23.2716 9.41921 23C8.18616 22.2611 7.04949 21.3722 6.03521 20.3536C3.74081 18.0624 1.60001 14.672 1.60001 10.3936ZM12 6.3952C10.9391 6.3952 9.92172 6.81663 9.17158 7.56677C8.42143 8.31692 8.00001 9.33433 8.00001 10.3952C8.00001 11.4561 8.42143 12.4735 9.17158 13.2236C9.92172 13.9738 10.9391 14.3952 12 14.3952C13.0609 14.3952 14.0783 13.9738 14.8284 13.2236C15.5786 12.4735 16 11.4561 16 10.3952C16 9.33433 15.5786 8.31692 14.8284 7.56677C14.0783 6.81663 13.0609 6.3952 12 6.3952Z" fill="#67E9B3"/>
             </svg>
             <p class="text-[#CACACA] w-60">Malang, Indonesia</p>
-            <div class="w-full border-[1px] border-dashed border-[#CACACA]"></div>
+            <div class="w-full border-[1px] border-dashed border-[#CACACA] ml-4 mr-4"></div>
             <x-button_1 :message="'More About Me'" :url="'about'"/>
         </div>
     </div>
@@ -27,16 +27,16 @@
         {{-- Carousel --}}
         <div class="owl-carousel owl-theme mb-14">
             <div class="item">
-                <x-card_1 :category="'WEB APPLICATION'" :title="'Digital Bullet Journal'" :image="'https://via.placeholder.com/238'"/>
+                <x-card_1 :category="'MOBILE APPLICATION'" :title="'DiBookingin: Mobile App for Restaurant Reservation'" :image="'./img/dibookingin_cover.png'" :url="'./project'"/>
             </div>
             <div class="item">
-                <x-card_1 :category="'WEB APPLICATION'" :title="'PT Karyamega Putra Mandiri POS'" :image="'https://via.placeholder.com/562'"/>
+                <x-card_1 :category="'WEB APPLICATION'" :title="'PT Karyamega Putra Mandiri: POS Software'" :image="'./img/ptkpm_cover.png'" :url="'./project'"/>
             </div>
         </div>
 
         <div class="flex justify-between items-center">
             {{-- Divider --}}
-            <div class="w-full h-[1px] border-[1px] border-dashed border-[#CACACA]"></div>
+            <div class="w-full h-[1px] border-[1px] border-dashed border-[#CACACA] mr-4"></div>
             <x-button_1 :message="'View All Projects'" :url="'#'"/>
         </div>
     </div>

@@ -1,5 +1,5 @@
 <div class="max-w-sm rounded-lg dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <a href="{{ $url }}">
         <img class="rounded-t-2xl shadow-md" src="{{ $image }}" alt="" />
         <div class="pt-4">
             <h3 class="mb-2 text-sm font-semibold tracking-tight text-[#67E9B3] dark:text-white">{{ $category }}</h3>
