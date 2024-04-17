@@ -6,7 +6,7 @@
 
 </div>
     {{-- Section: Introduction --}}
-    <div class="w-full h-full bg-zinc-700 rounded-3xl py-12 px-8 mb-4">
+    <div class="w-full h-full bg-gradient-to-br from-zinc-700 to-transparent border-[1px] border-white/15 rounded-3xl py-12 px-8 mb-4">
         <h1 class="text-[#F4F4F4] text-4xl font-bold mb-12 w-full">Hello Everyone! I’m Aldo Arista 👋</h1>
         <p class="text-[#CACACA] text-lg lg:w-2/3 mb-12">A passionate UI/UX Designer & Full-Stack Engineer adept at transforming concepts into engaging, user-friendly web and mobile apps.</p>
             <div class="flex justify-between items-center">
@@ -16,12 +16,12 @@
             </svg>
             <p class="text-[#CACACA] w-60">Malang, Indonesia</p>
             <div class="w-full border-[1px] border-dashed border-[#CACACA]"></div>
-            <x-button_1 :message="'More About Me'"/>
+            <x-button_1 :message="'More About Me'" :url="'about'"/>
         </div>
     </div>
 
     {{-- Section: Projects --}}
-    <div class="w-full h-full bg-zinc-700 rounded-3xl py-12 px-8 mb-4">
+    <div class="w-full h-full bg-gradient-to-br from-zinc-700 to-transparent border-[1px] border-white/15 rounded-3xl py-12 px-8 mb-4">
         <h1 class="text-[#F4F4F4] text-3xl font-bold mb-12 w-full">Recent Project</h1>
         
         {{-- Carousel --}}
@@ -37,45 +37,24 @@
         <div class="flex justify-between items-center">
             {{-- Divider --}}
             <div class="w-full h-[1px] border-[1px] border-dashed border-[#CACACA]"></div>
-            <x-button_1 :message="'View All Projects'"/>
+            <x-button_1 :message="'View All Projects'" :url="'#'"/>
         </div>
     </div>
 
     {{-- Section: Tech Stack --}}
-    <div class="w-full h-full bg-zinc-700 rounded-3xl py-12 px-8 mb-4">
+    <div class="w-full h-full bg-gradient-to-br from-zinc-700 to-transparent border-[1px] border-white/15 rounded-3xl py-12 px-8 mb-4">
         <h1 class="text-[#F4F4F4] text-3xl font-bold mb-12 w-full">Tech Stack</h1>
 
-        <div class="grid grid-cols-3 gap-8 mb-14">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-14">
             <x-card_2 :techLogo="'./img/laravel_logo.png'" :techName="'Laravel'" :techField="'Full-Stack'" />
             <x-card_2 :techLogo="'./img/tailwind_logo.png'" :techName="'Tailwind'" :techField="'Front-End'" />
             <x-card_2 :techLogo="'./img/vue_logo.png'" :techName="'Vue'" :techField="'Front-End'" />
-            <x-card_2 :techLogo="'https://via.placeholder.com/64'" :techName="'Python'" :techField="'Back-End'" />
-            <x-card_2 :techLogo="'https://via.placeholder.com/64'" :techName="'C'" :techField="'Back-End'" />
-            <x-card_2 :techLogo="'https://via.placeholder.com/64'" :techName="'Java'" :techField="'Back-End'" />
+            <x-card_2 :techLogo="'./img/python_logo.png'" :techName="'Python'" :techField="'Back-End'" />
+            <x-card_2 :techLogo="'./img/c_logo.png'" :techName="'C'" :techField="'Back-End'" />
+            <x-card_2 :techLogo="'./img/java_logo.png'" :techName="'Java'" :techField="'Back-End'" />
         </div>
 
         <div class="w-full h-[1px] border-[1px] border-dashed border-[#CACACA]"></div>
     </div>
-
-    {{-- Section: Contact Me --}}
-    <div class="group w-full h-full bg-zinc-700 rounded-3xl py-12 px-8 mb-4 cursor-pointer">
-        <div class="flex justify-center items-center gap-8">
-            <h1 class="text-4xl text-[#CACACA] font-semibold group-hover:-translate-x-4 duration-300 group-hover:text-[#F4F4F4]">Contact Me</h1>
-            <svg class="group-hover:translate-x-4 duration-300 fill-[#CACACA] group-hover:fill-[#F4F4F4]" width="45" height="34" viewBox="0 0 45 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M44.1801 18.5411C45.0313 17.69 45.0313 16.31 44.1801 15.4589L30.3102 1.58896C29.4591 0.737837 28.0791 0.737837 27.228 1.58896C26.3769 2.44009 26.3769 3.82004 27.228 4.67117L39.5568 17L27.228 29.3288C26.3769 30.18 26.3769 31.5599 27.228 32.411C28.0791 33.2622 29.4591 33.2622 30.3102 32.411L44.1801 18.5411ZM0.361084 19.1794H42.639V14.8206H0.361084V19.1794Z"/>
-            </svg>
-        </div>
-    </div>
-
-    {{-- Section: Footer --}}
-    <div class="flex items-center gap-12 text-[#CACACA] ml-4">
-        <p>© Copyright 2023. All Right Reserved.</p>
-        <div class="flex items-center gap-2">
-            <img class="rounded-full w-8 h-auto" src="{{ asset('img/Logo Initial.png') }}" alt="Personal Brand Logo">
-            <p>Made by <b>Aldo Arista</b></p>
-        </div>
-    </div>
     
-        
-
 @endsection
