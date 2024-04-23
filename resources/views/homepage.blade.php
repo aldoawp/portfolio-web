@@ -25,13 +25,13 @@
         <h1 class="text-[#F4F4F4] text-3xl font-bold mb-12 w-full">Recent Project</h1>
         
         {{-- Carousel --}}
+
         <div class="owl-carousel owl-theme mb-14">
+            @foreach ($projects as $project)
             <div class="item">
-                <x-card_1 :category="'MOBILE APPLICATION'" :title="'DiBookingin: Mobile App for Restaurant Reservation'" :image="'./img/dibookingin_cover.png'" :url="'./project'"/>
+                <x-card_1 :category="$project->category" :title="$project->project_name" :image="($project->project_thumbnail) ? './img/'.$project->project_thumbnail : 'https://via.placeholder.com/500x500' " :url="'./project/'.$project->id"/>
             </div>
-            <div class="item">
-                <x-card_1 :category="'WEB APPLICATION'" :title="'PT Karyamega Putra Mandiri: POS Software'" :image="'./img/ptkpm_cover.png'" :url="'./project'"/>
-            </div>
+            @endforeach
         </div>
 
         <div class="flex justify-between items-center">
@@ -39,6 +39,7 @@
             <div class="w-full h-[1px] border-[1px] border-dashed border-[#CACACA] mr-4"></div>
             <x-button_1 :message="'View All Projects'" :url="'#'"/>
         </div>
+
     </div>
 
     {{-- Section: Tech Stack --}}
