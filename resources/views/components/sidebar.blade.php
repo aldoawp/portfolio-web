@@ -1,3 +1,9 @@
+{{-- Navbar Mobile --}}
+<div class="lg:hidden w-full h-16 bg-gradient-to-br from-zinc-700 to-transparent border-[1px] border-white/15 rounded-2xl mb-4">
+    
+</div>
+
+
 {{-- Sidebar Start --}}
 <div class="hidden lg:block bg-gradient-to-br from-zinc-700 to-transparent border-[1px] border-white/15 w-64 py-6 px-6 rounded-3xl h-[95%] overflow-y-scroll fixed no-scrollbar"> 
     <div class="flex justify-center items-center">
