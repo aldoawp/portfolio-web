@@ -16,7 +16,7 @@
 
     {{-- CTA Buttons --}}
     <div class="mt-6 flex flex-col justify-center gap-2">
-        <a href="#" class="flex gap-2 justify-center items-center bg-[#2B4C3F]/50 rounded-xl py-3 px-2 text-[#67E9B3] text-center font-semibold border-[1px] border-[#67E9B3] hover:bg-[#2B4C3F] duration-300">
+        <a href="https://drive.google.com/file/d/1_PaITRPN8eoMnNbO-801GEEbggxsrbOx/view?usp=sharing" class="flex gap-2 justify-center items-center bg-[#2B4C3F]/50 rounded-xl py-3 px-2 text-[#67E9B3] text-center font-semibold border-[1px] border-[#67E9B3] hover:bg-[#2B4C3F] duration-300">
             See My Resume
             <svg class="inline" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5 22H10.5C6.729 22 4.843 22 3.672 20.828C2.5 19.657 2.5 17.771 2.5 14V10C2.5 6.229 2.5 4.343 3.672 3.172C4.843 2 6.739 2 10.53 2C11.136 2 11.621 2 12.03 2.017C12.017 2.097 12.01 2.178 12.01 2.261L12 5.095C12 6.192 12 7.162 12.105 7.943C12.219 8.79 12.48 9.637 13.172 10.329C13.862 11.019 14.71 11.281 15.557 11.395C16.338 11.5 17.308 11.5 18.405 11.5H22.457C22.5 12.034 22.5 12.69 22.5 13.563V14C22.5 17.771 22.5 19.657 21.328 20.828C20.157 22 18.271 22 14.5 22Z" fill="#67E9B3"/>
